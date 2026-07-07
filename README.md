@@ -1,4 +1,4 @@
-# Kinetics GUI
+# Kinetics analyser
 
 A Tkinter + matplotlib GUI for extracting enzyme kinetics (slopes, k<sub>cat</sub>/K<sub>M</sub>) from Cary 60 UV-Vis CSV files. Built for the HG3 Kemp eliminase directed-evolution lineage; works on any continuous-monitoring assay where each cuvette swap produces a spike followed by a blank or enzyme trace at 380 nm.
 
