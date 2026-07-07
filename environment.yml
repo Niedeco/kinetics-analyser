@@ -1,0 +1,12 @@
+name: kinetics
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  # Numerics and data handling
+  - numpy
+  - pandas
+  - scipy            # binary_dilation in segment detection
+  # Plotting and GUI backend
+  - matplotlib
+  - tk               # tkinter runtime (required for the GUI on Linux)

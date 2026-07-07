@@ -1,0 +1,16 @@
+{
+  "min_seg_sec": 20.0,
+  "head_trim_sec": 0.0,
+  "tail_trim_sec": 1.0,
+  "r2_thresh": 0.995,
+  "slope_tol": 0.1,
+  "min_window_sec": 1.0,
+  "extend_to_minimum": true,
+  "extend_lookback_sec": 3.0,
+  "extend_smooth_thresh": 0.02,
+  "fit_method": "curvature",
+  "max_slope_dev": 0.01,
+  "curvature_sig_sigma": 4.0,
+  "kcat_method": "per_replicate",
+  "bootstrap_iter": 10000
+}
